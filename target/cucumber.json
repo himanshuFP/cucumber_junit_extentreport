@@ -1,0 +1,288 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 32,
+        "name": "In order to verify login to Facebook as Invalid user",
+        "description": "",
+        "id": "login;in-order-to-verify-login-to-facebook-as-invalid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 284509150,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User navigates to facebook site",
+            "match": {
+              "location": "LoginStep.user_navigates_to_facebook_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "LoginStep.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4112693,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"valid\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 583568,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 987370,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User \"shouldbe\" successfull login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shouldbe",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginStep.user_successfull_login(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2341202,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters the age",
+            "match": {
+              "location": "LoginStep.user_Enters_the_age(Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "2"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "3"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "In order to verify login to Facebook as Invalid user",
+        "description": "",
+        "id": "login;in-order-to-verify-login-to-facebook-as-invalid-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 91231,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User navigates to facebook site",
+            "match": {
+              "location": "LoginStep.user_navigates_to_facebook_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41189,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "LoginStep.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 983135,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"invalid\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 213641,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters \"invalid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 622062,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User \"shouldnot\" successfull login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shouldnot",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginStep.user_successfull_login(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 606664,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters the age",
+            "match": {
+              "location": "LoginStep.user_Enters_the_age(Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "2"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "3"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "In order to perform successfull Facebook login as a user \r\nI want to enter correct username and correct password\r\n\r\n\r\nScenario Outlne: In order to verify login to Facebook\r\n  Given User navigates to facebook site\r\n  When user validates the homepage title\r\n  Then User enters the \"\u003cusername\u003e\"  username\r\n  And User enters the \"\u003cpassword\u003e\" password\r\n   Then User \"\u003cTestoutput\u003e\" successfull login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
